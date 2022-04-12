@@ -1,0 +1,111 @@
+﻿.header {
+    background-color: #50C1E9;
+    text-align:center;
+    
+}
+.month {
+    background-color: #ff826b;
+    text-align: center;
+}
+.week {
+    background-color:#fff26b;
+     text-align: center;
+}
+
+.header>pre{
+    color:white;
+    margin-top:100px;
+    margin-left:-20px;
+    font-family:'Microsoft Himalaya';
+    font-size:70px;
+}
+.month > p {
+    margin-top: 14px;
+    font-family:Calibri;
+    font-size: 70px;
+    font: bold;
+    color:white;
+    
+}
+.month > p > a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+.week > p {
+   font-size:20px;
+   font-family:Calibri;
+    color: black;
+    
+  
+}
+.daily {
+    border-style:dashed;
+    border-width: 2px;
+    border-color:blueviolet;
+    float:right;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:70px;
+    padding-right:70px;
+    
+    
+}
+.daily > a {
+  text-decoration: none;
+  font:bold;
+  font-size:21px;
+  font-family:sans-serif;
+  color:black;
+ }
+.hour> p {
+    border-style:none;
+    border-width: 2px;
+    border-color:black;
+    padding:10px;
+    text-align:center;
+    margin-top:80px;
+    border-radius:10px;
+    color:black;
+    background-color:darksalmon;
+    font-family:Calibri;
+    font:bold;
+    font-size:20px;
+   
+}.hour{
+    float:left;
+    
+}.Note{
+    float:left;
+    
+}
+.Note > p {
+        margin-top: 40px;
+        text-align: center;
+        
+    }
+.Note > p > input {
+ width: 800px;
+ height: 100px;
+ text-align:right;
+}.save>p{
+    margin-top:80px;
+}
+.save > p > input {
+        color: black;
+        background-color:darksalmon;
+        width: 80px;
+        height: 40px;
+        border:hidden;
+        border-radius:10px;
+        font-family:Calibri;
+        font-size:25px;
+        font:bold;
+    }
+.form-day {
+    background-image: url('../img/5456359.jpg');
+    
+}
+.day {
+    background-color: #FFFBE7;
+}
