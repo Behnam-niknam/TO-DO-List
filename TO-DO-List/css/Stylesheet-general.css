@@ -13,6 +13,7 @@
 }
 
 .header>pre{
+    
     color:white;
     margin-top:100px;
     margin-left:-20px;
@@ -48,6 +49,11 @@
     padding-bottom:30px;
     padding-left:70px;
     padding-right:70px;
+    text-decoration: none;
+    font:bold;
+    font-size:21px;
+    font-family:sans-serif;
+    color:black;
     
     
 }
@@ -58,6 +64,7 @@
   font-family:sans-serif;
   color:black;
  }
+ 
 .hour> p {
     border-style:none;
     border-width: 2px;
@@ -72,10 +79,12 @@
     font:bold;
     font-size:20px;
    
-}.hour{
+}
+.hour{
     float:left;
     
-}.Note{
+}
+.Note{
     float:left;
     
 }
@@ -88,7 +97,8 @@
  width: 800px;
  height: 100px;
  text-align:right;
-}.save>p{
+}
+.save>p{
     margin-top:80px;
 }
 .save > p > input {
@@ -108,4 +118,5 @@
 }
 .day {
     background-color: #FFFBE7;
-}
+}
+
